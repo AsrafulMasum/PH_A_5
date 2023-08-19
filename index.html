@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title & favicon -->
+    <link rel="shortcut icon" href="./images/shopping-basket.png" type="image/x-icon">
+    <title>saleFever</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- tailwind & daisyUi -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- custom colors -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'btn-color': '#E527B2',
+              'title-color': '#111111',
+              'p-color': '#1111117F',
+              'header-bg': '#F9F6E2',
+            }
+          }
+        }
+      }
+    </script>
+
+  </head>
+
+  <body class="font-['Work_Sans'] text-title-color">
+
+    <header class="bg-header-bg">
+
+      <!-- hero section -->
+      <div class="hero lg:min-h-screen max-w-screen-lg mx-auto">
+
+        <div class="hero-content flex-col lg:flex-row-reverse">
+
+          <div class="flex-1">
+            <img src="./images/Summer 1.png" class="rounded-lg md:w-2/3 md:mx-auto lg:w-full" />
+          </div>
+
+          <div class="flex-1 text-center md:w-2/3 md:mx-auto lg:w-full">
+
+            <h4 class="text-3xl font-medium">---SALE FEVER---</h4>
+
+            <h1 class="text-5xl leading-tight font-bold py-12">Purchase TK 200 or above & get <span class="text-btn-color">20% off</span></h1>
+
+            <div class="flex justify-center items-center gap-4">
+              <p class="text-2xl font-medium">Use Promo Code</p>
+              <button class="btn btn-sm px-6 bg-btn-color text-white hover:bg-btn-color">SELL200</button>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+      
+    </header>
+
+  </body>
+
+</html>
