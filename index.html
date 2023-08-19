@@ -85,7 +85,7 @@
           <!-- cards container -->
           <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
 
-            <a class="card cursor-pointer bg-white">
+            <a id="item-1" class="card cursor-pointer bg-white">
 
               <figure class="mx-5 mt-5 h-40 bg-image-bg rounded-lg">
                 <img src="./images/prod1.png" alt="Shoes" class="rounded-lg " />
@@ -101,9 +101,9 @@
                   <input type="radio" name="rating-1" class="mask mask-star-2 bg-star-color" />
                 </div>
 
-                <h2 class="text-xl font-semibold">K. Accessories</h2>
+                <h2 id="item-1-name" class="text-xl font-semibold">K. Accessories</h2>
 
-                <p class="text-xl font-normal text-p-color"><span>39.00</span> TK</p>
+                <p class="text-xl font-normal text-p-color"><span id="item-1-price">39.00</span> TK</p>
 
               </div>
 
@@ -345,17 +345,13 @@
         </div>
 
         <div class="p-5 bg-white rounded-xl mt-4 text-xl font-medium leading-10">
-          <ol>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <hr>
+          <ol id="item-list">
+            
           </ol>
-          
+          <hr>
           <ul>
             <li>Total Price: <span class="text-p-color">
-              <span>00.00</span>
+              <span id="main-price">00.00</span>
               TK</span>
             </li>
             <li>Discount: <span class="text-p-color">
@@ -376,6 +372,7 @@
 
     </main>
 
+    <script src="script.js"></script>
   </body>
 
 </html>
