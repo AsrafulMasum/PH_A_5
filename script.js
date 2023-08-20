@@ -40,6 +40,7 @@ function addMainCost(itemCost){
         discountPriceElement.innerText = newDiscountPrice;
         const totalPrice = (newPriceFloat - newDiscountPrice).toFixed(2);
         lastPriceElement.innerText = totalPrice;
+        couponBtn.style.backgroundColor = 'gray';
       })
 
     }
