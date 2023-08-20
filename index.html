@@ -73,19 +73,19 @@
       
     </header>
 
-    <main class="mt-24 mx-4 max-w-screen-lg lg:mx-auto flex flex-col md:flex-row gap-4">
+    <main class="mt-24 mx-4 max-w-screen-lg lg:mx-auto flex flex-col lg:flex-row gap-4">
 
       <!-- all cards -->
-      <section class="md:w-1/2 lg:w-3/4">
+      <section class="mx-auto w-full lg:w-3/4">
 
         <!-- Kitchenware section -->
         <div class="my-10">
 
           <!-- section title -->
-          <h2 class="text-4xl text-center md:text-left font-semibold mb-8">Kitchenware</h2>
+          <h2 class="text-4xl text-center lg:text-left font-semibold mb-8">Kitchenware</h2>
 
           <!-- cards container -->
-          <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
             <a onclick="onClick('item-1-name', 'item-1-price')" class="card cursor-pointer bg-white">
 
@@ -167,10 +167,10 @@
         <div class="my-10">
 
           <!-- section title -->
-          <h2 class="text-4xl text-center md:text-left font-semibold mb-8">Sportswear</h2>
+          <h2 class="text-4xl text-center lg:text-left font-semibold mb-8">Sportswear</h2>
 
           <!-- cards container -->
-          <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
             <a onclick="onClick('item-4-name', 'item-4-price')" class="card cursor-pointer bg-white">
 
@@ -252,10 +252,10 @@
         <div class="my-10">
 
           <!-- section title -->
-          <h2 class="text-4xl text-center md:text-left font-semibold mb-8">Furniture</h2>
+          <h2 class="text-4xl text-center lg:text-left font-semibold mb-8">Furniture</h2>
 
           <!-- cards container -->
-          <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
             <a onclick="onClick('item-7-name', 'item-7-price')" class="card cursor-pointer bg-white">
 
@@ -336,12 +336,12 @@
       </section>
 
       <!-- cart section -->
-      <section class="md:w-1/2 lg:w-1/4 md:mt-28 mb-10">
+      <section class="md:w-5/6 mx-auto lg:w-1/4 md:mt-28 mb-10">
 
         <div class="p-5 bg-white rounded-xl">
           <h4 class="text-2xl font-medium mb-4">Have coupon?</h4>
           <div class="flex items-center">
-            <input id="code" class="px-5 py-3 w-2/3 rounded-l-lg border-[1px] focus:outline-none" type="text" placeholder="Code">
+            <input id="code" class="px-5 py-3 w-full rounded-l-lg border-[1px] focus:outline-none" type="text" placeholder="Code">
             <button disabled id="coupon-btn" class="bg-gray-400 h-[50px] px-5 rounded-r-lg text-white text-base font-semibold">Apply</button>
           </div>
         </div>
